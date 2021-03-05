@@ -30,3 +30,6 @@ PRODUCT_NAME := omni_citrus
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO M3
 PRODUCT_MANUFACTURER := Xiaomi
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root) \
+	$(LOCAL_PATH)/prebuilt/dtb:dtb.img

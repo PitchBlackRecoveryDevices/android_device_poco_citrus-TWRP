@@ -1,5 +1,9 @@
 # mount point	fstype	device											device2				flags
 # Other partitions
+/system_root	ext4    /dev/block/mapper/system	flags=display="System"
+/vendor	        ext4    /dev/block/mapper/vendor	flags=display="Vendor"
+/product        ext4    /dev/block/mapper/product	flags=display="Product"
+
 /metadata	ext4	/dev/block/bootdevice/by-name/metadata											flags=display="Metadata";wrappedkey
 /metadata_image emmc    /dev/block/bootdevice/by-name/metadata										flags=display="Metadata Image";backup=1;flashimg=1
 /firmware_image emmc    /dev/block/bootdevice/by-name/modem										flags=display="Firmware Image";flashimg=1;backup=1

@@ -134,5 +134,4 @@ TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 20.1.0
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
-TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 

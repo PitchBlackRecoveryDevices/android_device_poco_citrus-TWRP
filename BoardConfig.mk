@@ -135,3 +135,6 @@ TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 20.1.0
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
 
+# TORCH
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+
